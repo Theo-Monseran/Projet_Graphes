@@ -15,6 +15,7 @@ def lire_fichier_graphe(N, nom_fichier):
                     graphe['deplacements'].append(position)
     return graphe
 
+
 N = 3
 nom_fichier = 'data.txt'
 graphe = lire_fichier_graphe(N, nom_fichier)

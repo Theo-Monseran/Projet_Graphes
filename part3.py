@@ -13,7 +13,7 @@ def get_nearest(villages, drone, deplacements):
     pass
 
 
-def tsp_glouton(villages, drones, deplacements, num_tournees = 1):
+def tsp_glouton(villages, drones, deplacements, num_tournees=1):
 
     i = 0
     for tournee in num_tournees:
